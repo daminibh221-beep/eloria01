@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éloria — Luxury Leather Handbags | Crafted for Elegance</title>
+    <meta name="description"
+        content="Éloria — Premium Italian leather handbags crafted for women who command elegance. Discover our exclusive collections of tote bags, clutches, crossbody bags & limited editions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <span class="preloader-brand">Éloria</span>
+            <div class="preloader-bar">
+                <div class="preloader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Éloria</a>
+            <ul class="nav-links">
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#bestsellers">Best Sellers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button class="nav-icon" aria-label="Wishlist"><i class="far fa-heart"></i></button>
+                <button class="nav-icon cart-icon" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#bestsellers">Best Sellers</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-bg">
+            <img src="images/hero-purse.png" alt="Éloria luxury leather handbag on marble surface" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content fade-in">
+            <span class="hero-badge">— New Season 2026 —</span>
+            <h1>Crafted for Women<br>Who Command <em>Elegance</em></h1>
+            <p class="hero-subtitle">Handcrafted Italian leather. Timeless sophistication. Uncompromising luxury.</p>
+            <div class="hero-cta">
+                <a href="#bestsellers" class="btn btn-primary">Shop Now</a>
+                <a href="#collections" class="btn btn-outline">Explore Collection</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Featured Collections -->
+    <section id="collections" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Our Curated Selection</span>
+                <h2>Featured Collections</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="collections-grid">
+                <a href="#" class="collection-card fade-in" id="collection-tote">
+                    <div class="collection-img">
+                        <img src="images/tote-collection.png" alt="Éloria Tote Bags Collection" loading="lazy">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Tote Bags</h3>
+                        <span class="collection-count">12 Pieces</span>
+                        <span class="collection-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="collection-card fade-in" id="collection-clutch">
+                    <div class="collection-img">
+                        <img src="images/clutch-collection.png" alt="Éloria Clutches Collection" loading="lazy">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Clutches</h3>
+                        <span class="collection-count">8 Pieces</span>
+                        <span class="collection-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="collection-card fade-in" id="collection-crossbody">
+                    <div class="collection-img">
+                        <img src="images/crossbody-collection.png" alt="Éloria Crossbody Bags Collection"
+                            loading="lazy">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-info">
+                        <h3>Crossbody</h3>
+                        <span class="collection-count">10 Pieces</span>
+                        <span class="collection-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="collection-card collection-card--featured fade-in" id="collection-limited">
+                    <div class="collection-img">
+                        <img src="images/limited-edition.png" alt="Éloria Limited Edition Collection" loading="lazy">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-info">
+                        <span class="collection-badge">Exclusive</span>
+                        <h3>Limited Edition</h3>
+                        <span class="collection-count">4 Pieces</span>
+                        <span class="collection-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Brand -->
+    <section id="about" class="section section-dark">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual fade-in">
+                    <div class="about-image-frame">
+                        <img src="images/hero-purse.png" alt="Éloria Italian leather craftsmanship" loading="lazy">
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Years of Craft</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Master Artisans</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="30">0</span>
+                            <span class="stat-label">Countries</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content fade-in">
+                    <span class="section-tag">Our Story</span>
+                    <h2>A Legacy of<br><em>Craftsmanship</em></h2>
+                    <div class="section-divider section-divider--left"></div>
+                    <p class="about-lead">Born in the heart of Florence, Italy, Éloria represents the pinnacle of
+                        leather artistry — where centuries-old tradition meets contemporary design.</p>
+                    <p>Every Éloria piece is meticulously handcrafted by our master artisans using only the finest
+                        full-grain Italian leather. From the careful selection of raw materials in Tuscan tanneries to
+                        the final hand-stitched detail, each bag undergoes over 120 individual steps to ensure
+                        unparalleled quality.</p>
+                    <p>We believe that a handbag is more than an accessory — it is an extension of the woman who carries
+                        it. Bold, refined, and unapologetically elegant. That is the Éloria promise.</p>
+                    <a href="#" class="btn btn-gold">Discover Our Heritage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Banner -->
+    <div class="marquee-banner">
+        <div class="marquee-track">
+            <span>Italian Leather</span>
+            <span class="marquee-dot">✦</span>
+            <span>Handcrafted</span>
+            <span class="marquee-dot">✦</span>
+            <span>Timeless Design</span>
+            <span class="marquee-dot">✦</span>
+            <span>Free Worldwide Shipping</span>
+            <span class="marquee-dot">✦</span>
+            <span>Lifetime Warranty</span>
+            <span class="marquee-dot">✦</span>
+            <span>Italian Leather</span>
+            <span class="marquee-dot">✦</span>
+            <span>Handcrafted</span>
+            <span class="marquee-dot">✦</span>
+            <span>Timeless Design</span>
+            <span class="marquee-dot">✦</span>
+            <span>Free Worldwide Shipping</span>
+            <span class="marquee-dot">✦</span>
+            <span>Lifetime Warranty</span>
+            <span class="marquee-dot">✦</span>
+        </div>
+    </div>
+
+    <!-- Best Sellers -->
+    <section id="bestsellers" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Most Loved</span>
+                <h2>Best Sellers</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="products-grid">
+                <div class="product-card fade-in" id="product-1">
+                    <div class="product-img">
+                        <img src="images/bestseller-1.png" alt="Éloria Roma Tote" loading="lazy">
+                        <div class="product-actions">
+                            <button class="product-action-btn" aria-label="Quick View"><i
+                                    class="fas fa-eye"></i></button>
+                            <button class="product-action-btn" aria-label="Add to Wishlist"><i
+                                    class="far fa-heart"></i></button>
+                        </div>
+                        <span class="product-badge">Best Seller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">The Roma Tote</h3>
+                        <p class="product-material">Full-Grain Italian Leather</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$1,295</span>
+                            <button class="add-to-cart" data-name="The Roma Tote" data-price="1295">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card fade-in" id="product-2">
+                    <div class="product-img">
+                        <img src="images/clutch-collection.png" alt="Éloria Venezia Clutch - Quilted Nappa Leather"
+                            loading="lazy">
+                        <div class="product-actions">
+                            <button class="product-action-btn" aria-label="Quick View"><i
+                                    class="fas fa-eye"></i></button>
+                            <button class="product-action-btn" aria-label="Add to Wishlist"><i
+                                    class="far fa-heart"></i></button>
+                        </div>
+                        <span class="product-badge product-badge--gold">New Arrival</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">The Venezia Clutch</h3>
+                        <p class="product-material">Quilted Nappa Leather</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$895</span>
+                            <button class="add-to-cart" data-name="The Venezia Clutch" data-price="895">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card fade-in" id="product-3">
+                    <div class="product-img">
+                        <img src="images/limited-edition.png" alt="Éloria Firenze Mini - Saffiano Leather"
+                            loading="lazy">
+                        <div class="product-actions">
+                            <button class="product-action-btn" aria-label="Quick View"><i
+                                    class="fas fa-eye"></i></button>
+                            <button class="product-action-btn" aria-label="Add to Wishlist"><i
+                                    class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">The Firenze Mini</h3>
+                        <p class="product-material">Saffiano Leather</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$750</span>
+                            <button class="add-to-cart" data-name="The Firenze Mini" data-price="750">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card fade-in" id="product-4">
+                    <div class="product-img">
+                        <img src="images/crossbody-collection.png" alt="Éloria Milano Crossbody" loading="lazy">
+                        <div class="product-actions">
+                            <button class="product-action-btn" aria-label="Quick View"><i
+                                    class="fas fa-eye"></i></button>
+                            <button class="product-action-btn" aria-label="Add to Wishlist"><i
+                                    class="far fa-heart"></i></button>
+                        </div>
+                        <span class="product-badge product-badge--limited">Limited</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">The Milano Crossbody</h3>
+                        <p class="product-material">Pebbled Calfskin Leather</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$1,150</span>
+                            <button class="add-to-cart" data-name="The Milano Crossbody" data-price="1150">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-dark">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Client Stories</span>
+                <h2>Voices of <em>Elegance</em></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"The Roma Tote is absolutely exquisite. The leather quality is unlike anything I've
+                            ever owned. It's become my everyday companion — sophisticated yet effortlessly practical."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SC</div>
+                            <div class="author-info">
+                                <strong>Sophia Castellano</strong>
+                                <span>Milan, Italy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"I receive compliments every single time I carry my Éloria clutch. The craftsmanship
+                            is truly remarkable — you can feel the artisan's dedication in every stitch."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AD</div>
+                            <div class="author-info">
+                                <strong>Amara Dubois</strong>
+                                <span>Paris, France</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"From the unboxing experience to the buttery-soft leather — Éloria defines luxury.
+                            The Limited Edition piece I purchased has become my most treasured possession."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">VR</div>
+                            <div class="author-info">
+                                <strong>Victoria Rosenberg</strong>
+                                <span>New York, USA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"An investment in timeless style. My Éloria crossbody has aged beautifully — the
+                            patina only makes it more gorgeous. This is what real luxury looks like."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">EN</div>
+                            <div class="author-info">
+                                <strong>Elena Nakamura</strong>
+                                <span>Tokyo, Japan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="prevBtn" aria-label="Previous testimonial"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn" id="nextBtn" aria-label="Next testimonial"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Gallery -->
+    <section id="instagram" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">@eloria.official</span>
+                <h2>Follow Our <em>Journey</em></h2>
+                <div class="section-divider"></div>
+            </div>
+        </div>
+        <div class="instagram-grid fade-in">
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/hero-purse.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/tote-collection.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/clutch-collection.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/crossbody-collection.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/limited-edition.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+            <a href="#" class="insta-item" aria-label="View Instagram post">
+                <img src="images/bestseller-1.png" alt="Éloria Instagram post" loading="lazy">
+                <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section section-dark">
+        <div class="container">
+            <div class="newsletter-wrapper fade-in">
+                <div class="newsletter-content">
+                    <span class="section-tag">Exclusive Access</span>
+                    <h2>Join the <em>Elite Circle</em></h2>
+                    <p>Be the first to discover new collections, receive exclusive invitations to private sales, and
+                        enjoy members-only benefits.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <p class="form-note">By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">Éloria</a>
+                        <p>Handcrafted luxury leather goods from Florence, Italy. Where timeless elegance meets modern
+                            sophistication.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4>Shop</h4>
+                        <ul>
+                            <li><a href="#">Tote Bags</a></li>
+                            <li><a href="#">Clutches</a></li>
+                            <li><a href="#">Crossbody</a></li>
+                            <li><a href="#">Limited Edition</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Craftsmanship</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4>Customer Care</h4>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Store Locator</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Via Tornabuoni 25, Florence, Italy</li>
+                            <li><i class="fas fa-phone"></i> +39 055 123 4567</li>
+                            <li><i class="fas fa-envelope"></i> concierge@eloria.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Éloria. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Item added to cart</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
