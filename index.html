@@ -524,11 +524,22 @@
         <span id="toastMessage">Item added to cart</span>
     </div>
 
-    <script src="script.js"></script>
-    <a href="https://creator.voiceflow.com/share/69f1aa9816565cff426faccd/development" target="_blank" 
-style="position:fixed; bottom:20px; right:20px; background:black; color:white; padding:12px 16px; border-radius:12px; text-decoration:none; font-weight:bold;">
-💬 Chat with AI
-</a>
+    <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '69f1aa9816565cff426faccc' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
 </body>
 
 </html>
